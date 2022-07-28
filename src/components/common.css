@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+.parent{
+    background-color: aquamarine;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.child{
+    background-color: blueviolet;
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+    left: 50%;
+    /* right: 50%; */
+    top: 30%;
+    /* bottom: 90%; */
+    transform: translate(-50%, -50%);
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.center{
+    text-align: center;
+}
+
+.margin{
+    margin-top: 1rem;
+}
